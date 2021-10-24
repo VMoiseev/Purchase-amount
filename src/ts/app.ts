@@ -11,3 +11,6 @@ cart.add(new MusicAlbum(1008, 'Meteora', 'Linkin Park', 900));
 cart.add(new Movie(1002, 'Мстители', 550, 'Avengers', 2012, 'США', '"Avengers Assemble!"', 'fantasy', 137));
 
 console.log(cart.items);
+console.log(cart.summWithoutDiscount());
+console.log(cart.summWithDiscount(90));
+console.log(cart.deleteItem(1008));
